@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>ROCK PAPER SCISSOR</title>
+  </head>
+  <body>
+    <header>
+      <h1>ROCK PAPER SCISSOR GAME</h1>
+    </header>
+    
+    <div id="choices">
+      <img class="choice" src="./asset/rock.jpg" alt="ROCK">
+      <img class="choice" src="./asset/paper.png" alt="PAPER">
+      <img class="choice" src="./asset/scissor.jpg" alt="SCISSOR">
+    </div>
+
+    <div class="state">
+      <h2 id="gameStat">
+	      GAME STATE
+      </h2>
+    </div>
+
+    <div class="selections">
+      <div class="selection">
+        <span>user selection</span>
+        <br/>
+        <strong id="userSelection"></strong>
+      </div>
+      <div class="selection">
+        <span>computer selection</span>
+        <br/>
+        <strong id="computerSelection"></strong>
+      </div>
+    </div>
+
+ 
+    <div class="scores">
+      <div class="score">
+	      <strong id="userScore">0</strong>
+	      <span>User<span>
+      </div>
+      <div class="score">
+	      <strong id="computerScore">0</strong>
+	      <span>Computer<span>
+      </div>
+    </div>
+    
+  
+    <script src="game.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </body>
+</html>
